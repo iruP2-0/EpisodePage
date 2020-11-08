@@ -1,0 +1,225 @@
+/* 
+-----------------------------------------------------
+*******************GLOBAL STYLE*******************
+-----------------------------------------------------
+*/
+html {
+  background-color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+}
+
+#item_nav_shop {
+  color: black;
+  font-size: 0.9rem;
+}
+
+/* 
+-----------------------------------------------------
+*******************EPISODE Page Style*******************
+-----------------------------------------------------
+*/
+/* #episode_page_main{
+
+} */
+#episode_page_main_div {
+  width: 100%;
+}
+.episode_page_inner_div {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.episodepage-img {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.episodePage_mp3_box {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #fdfdfd;
+}
+
+#main_heading_episode {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  margin-left: 4.5rem;
+}
+
+/* 
+-----------------------------------------------------
+*******************ABOUT US STYLE*******************
+-----------------------------------------------------
+*/
+#section_hero {
+  height: 20%;
+  width: 100%;
+}
+
+#about_hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30rem;
+  background-image: url("assets/aboutHero.png");
+  display: flex;
+  align-items: center;
+
+  /* margin-top: 2rem; */
+}
+
+#hero_innerDiv {
+  margin-left: 7.2rem;
+  margin-right: 5rem;
+  align-items: center;
+}
+
+#main_content_aboutPage {
+  margin-left: 7.2rem;
+  margin-right: 5rem;
+  align-items: center;
+  margin-top: 3.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+-----------------------------------------------------
+*******************Shop Page Style*******************
+-----------------------------------------------------
+*/
+
+.fa-heart-o {
+  cursor: pointer;
+}
+
+#shop_page_main_div {
+  width: 100%;
+}
+
+#shop_page_inner_div {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#main_heading_shop {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  margin-left: 7.5rem;
+}
+
+.product-img {
+  box-shadow: 1px 3px 20px 0px rgba(217, 202, 202, 0.75);
+  -webkit-box-shadow: 1px 3px 20px 0px rgba(217, 202, 202, 0.75);
+  -moz-box-shadow: 1px 3px 20px 0px rgba(217, 202, 202, 0.75);
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+
+.product_box {
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+  background-color: #f8f9fa !important;
+}
+
+/* 
+-----------------------------------------------------
+*******************Contact Page Style*******************
+-----------------------------------------------------
+*/
+#contact_hero {
+  background: green;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#contact_hero_innerDiv {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  height: max-content;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 0.8rem;
+  /* margin-bottom: 5rem; */
+  box-shadow: 0px 1px 28px 16px rgba(123, 117, 117, 0.1);
+  -webkit-box-shadow: 0px 1px 28px 16px rgba(123, 117, 117, 0.1);
+  -moz-box-shadow: 0px 1px 28px 16px rgba(123, 117, 117, 0.1);
+}
+
+.contact_form_container h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact_form_container {
+  width: 60%;
+}
+
+.contact_form {
+  padding-bottom: 5rem;
+}
+
+.contact_form input {
+  height: 3rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  align-items: center;
+}
+
+#contact_footer {
+  z-index: 999;
+  margin-top: 8rem;
+}
+
+#contact_card {
+  box-shadow: -1px 5px 19px 5px rgba(155, 155, 155, 0.31);
+  text-align: center;
+  height: 5rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+/****************************************************************************************************
+*****************************************************************************************************
+*****************************************************************************************************
+*********************************************** RESPONSIVE ******************************************
+*****************************************************************************************************
+*****************************************************************************************************
+*****************************************************************************************************/
+
+@media only screen and (max-width: 780px) {
+  /*---------------------------------------------------
+     *******************RESPONSIVE ABOUT US STYLE*******************
+     ---------------------------------------------------- */
+
+  #hero_innerDiv {
+    margin-left: 0.2rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+
+  #main_content_aboutPage {
+    margin-left: 0.4rem;
+    margin-right: 0.9rem;
+    align-items: center;
+    margin-top: 3.4rem;
+    font-family: "Poppins", sans-serif;
+  }
+}
